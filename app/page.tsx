@@ -24,7 +24,8 @@ export default function Home() {
   async function hitAPI() {
     try {
       if (!request.city || !request.days) return
-      setMessage('Building itinerary...')
+      //setMessage('Hi! We hit out GPT limits at the moment. Please come back tomorrow!')
+      setMessage('Building itinerary...this may take 40 seconds')
       setLoading(true)
       setItinerary('')
 
@@ -59,8 +60,7 @@ export default function Home() {
       let itinerary = json.itinerary
 
       pointsOfInterest.map(point => {
-        // itinerary = itinerary.replace(point, `<a target="_blank" rel="no-opener" href="https://www.google.com/search?q=${encodeURIComponent(point + ' ' + request.city)}">${point}</a>`)
-        itinerary = itinerary.replace(point, `[${point}](https://www.google.com/search?q=${encodeURIComponent(point + ' ' + request.city)})`)
+        itinerary = itinerary.replace(point, `[${point}](https://www.viator.com/searchResults/all?pid=P00089289&mcid=42383&medium=link&text=${encodeURIComponent(point + ' ' + request.city)})`)
       })
 
       setItinerary(itinerary)
@@ -121,7 +121,9 @@ export default function Home() {
                 </ReactMarkdown>
             </div>
           ))
-        }
+          }
+      
+        
         </div>
       </div>
     </main>
