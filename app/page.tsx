@@ -100,7 +100,7 @@ export default function Home() {
         }
         {
           itinerary && (
-            <h3 style={styles.cityHeadingStyle}>Ok, we've made your itinerary for {checkCity(request.city)}</h3>
+            <h3 style={styles.cityHeadingStyle}>Ok, I've made your itinerary for {checkCity(request.city)}</h3>
           )
         }
         {
