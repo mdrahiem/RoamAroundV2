@@ -129,7 +129,7 @@ export default function Home() {
     </main>
   )
 }
-
+ 
 function checkCity(city?: string) {
   if (!city) return
   const cityToLowerCase = city.toLowerCase()
