@@ -1,31 +1,5 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/components/analytics.tsx": {
-      "": {
-        "id": "(sc_client)/./app/components/analytics.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/analytics.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "AnalyticsWrapper": {
-        "id": "(sc_client)/./app/components/analytics.tsx",
-        "name": "AnalyticsWrapper",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/page.tsx": {
       "": {
         "id": "(sc_client)/./app/page.tsx",
@@ -48,6 +22,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/analytics.tsx": {
+      "": {
+        "id": "(sc_client)/./app/components/analytics.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/analytics.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "AnalyticsWrapper": {
+        "id": "(sc_client)/./app/components/analytics.tsx",
+        "name": "AnalyticsWrapper",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -159,11 +159,37 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/Users/shie/RoamAroundV2/app/layout": [
+    "/Users/naderdabit/temp/delete/RoamAroundV2/app/layout": [
       "static/css/_app-client_app_globals_css.css"
     ]
   },
-  "/Users/shie/RoamAroundV2/app/components/analytics.tsx": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/app/page.tsx": {
+    "": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/naderdabit/temp/delete/RoamAroundV2/app/components/analytics.tsx": {
     "": {
       "id": "(app-client)/./app/components/analytics.tsx",
       "name": "",
@@ -189,33 +215,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/app/page.tsx": {
-    "": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/client/components/app-router.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -241,7 +241,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/esm/client/components/app-router.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/esm/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -267,7 +267,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/client/components/error-boundary.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/client/components/error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -293,7 +293,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/esm/client/components/error-boundary.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/esm/client/components/error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -319,7 +319,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/client/components/layout-router.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/client/components/layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -345,7 +345,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/esm/client/components/layout-router.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/esm/client/components/layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -371,7 +371,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/client/components/render-from-template-context.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/client/components/render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -397,7 +397,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -423,7 +423,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/shie/RoamAroundV2/app/globals.css": {
+  "/Users/naderdabit/temp/delete/RoamAroundV2/app/globals.css": {
     "default": {
       "id": "null",
       "name": "default",
