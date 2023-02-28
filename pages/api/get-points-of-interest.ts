@@ -29,6 +29,8 @@ export default async function handler(
     })
   })
 
+  console.log('response2: ', response2)
+
   let pointsOfInterest = await response2.json()
 
   pointsOfInterest = pointsOfInterest.choices[0].text.split('\n')
